@@ -26,6 +26,7 @@ get_elements_within_slice = example_list[start_index:end_index]
 # To change the default step size of one element at a time
 # we add a second ":"inside the square brackets i.e: [::step_size]
 # In this example to change only the step we can ommit the start and end numbers just adding the colon
+# By ommiting the start_index and end_index python assumes the default values of the first element in the list to the last element of the list respectively
 
 # play around with the value of step_size to see the behaviour
 step_size = 3
