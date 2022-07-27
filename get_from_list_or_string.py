@@ -28,8 +28,8 @@ get_elements_within_slice = example_list[start_index:end_index]
 # In this example to change only the step we can ommit the start and end numbers just adding the colon
 
 # play around with the value of step_size to see the behaviour
-step_Size = 3
-get_every_step_size_element_full_list = example_list[::step_Size]
+step_size = 3
+get_every_step_size_element_full_list = example_list[::step_size]
 
 
 
@@ -77,7 +77,7 @@ print("####################################################")
 print("#             Changing step size                   #")       
 print("####################################################")
 
-print(f"\nGiven the list: example_list = {example_list}\nchanging the step size to {step_Size}\nuse the following syntax\nexample_list[::{step_Size}]\n      Results in:\n {example_list} -> {get_every_step_size_element_full_list}\n\nps: if step_size = -1 the list will be reversed\n")
+print(f"\nGiven the list: example_list = {example_list}\nchanging the step size to {step_size}\nuse the following syntax\nexample_list[::{step_size}]\n      Results in:\n {example_list} -> {get_every_step_size_element_full_list}\n\nps: if step_size = -1 the list will be reversed\n")
 
 print("######################################################")
 print("#         Changing step size of a list slice         #")       
