@@ -17,10 +17,10 @@ get_element = example_list[select_by_index]
 # which is on the right of the colon in this case 5
 
 # Play around with the numbers in start_index and end_index and runing the program to see the results
-start_Index = 1
-end_Index = 4
+start_index = 2
+end_index = 5
 
-get_elements_within_slice = example_list[start_Index:end_Index]
+get_elements_within_slice = example_list[start_index:end_index]
 
 
 # To change the default step size of one element at a time
@@ -70,7 +70,7 @@ print("####################################################")
 print("#                 List slicing                     #")       
 print("####################################################")
 
-print(f"\nGiven the list: example_list = {example_list}\nto select only from start index up to to but not included end index\nusing the following syntax\n\nexample_list[{start_Index}:{end_Index}]\n      Results in:\n {example_list} -> {get_elements_within_slice}\n")
+print(f"\nGiven the list: example_list = {example_list}\nto select only from start index up to to but not included end index\nusing the following syntax\n\nexample_list[{start_index}:{end_index}]\n      Results in:\n {example_list} -> {get_elements_within_slice}\n")
 
 
 print("####################################################")
